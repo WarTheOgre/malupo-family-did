@@ -1,0 +1,14 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "id": "did:web:malupo.family",
+  "service": [
+    {
+      "id": "did:web:malupo.family#family-registry",
+      "type": "FamilyRegistry",
+      "serviceEndpoint": "https://malupo.family/family-registry.json",
+      "description": "Malupo Family DID Registry"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "family": "Malupo",
+  "established": "2026-03-20",
+  "members": [
+    {
+      "name": "Warren Malupo",
+      "type": "Person",
+      "did": "did:web:malupo.family:warren",
+      "didKey": "did:key:z6MktRm2ZmzAc12Tf411tYbxiX9T5BC2ptwTWqPbUJ6jCz91"
+    },
+    {
+      "name": "Kim Malupo",
+      "type": "Person",
+      "did": "did:web:malupo.family:kim",
+      "didKey": "did:key:z6MkiSxVbsNSr8bCFQ11RrmPZyBiAEWVdgK1a7xeNukDoqCV"
+    },
+    {
+      "name": "Al Malupo",
+      "type": "Person",
+      "did": "did:web:malupo.family:al",
+      "didKey": "did:key:z6MkgRrM2EhsZKumz9cdMjaju9XSUjNJfm3HAeAH18Ti4qct"
+    },
+    {
+      "name": "Marcus Malupo",
+      "type": "Person",
+      "did": "did:web:malupo.family:marcus",
+      "didKey": "did:key:z6MkrfgSQFUVnBsfayQmxuNFiN3ZBiL9ejuYFqDkR7SWKzqE"
+    },
+    {
+      "name": "Data Malupo",
+      "type": "Person",
+      "did": "did:web:malupo.family:data",
+      "didKey": "did:key:z6Mkk8SH6KwLx7Qvr4qCxrHFAkRzoRZQrZGmqzHaP4Gmo5MR"
+    },
+    {
+      "name": "Claw Malupo",
+      "type": "Agent",
+      "did": "did:web:malupo.family:agents:claw",
+      "didKey": "did:key:z6MkpGNywRmdwbs2FozXAdqBx6HTdgeh9KsW4V6z2o8LZxRY"
+    }
+  ],
+  "note": "Malupo Ohana - Decentralized Family Identity",
+  "motto": "Ohana means family. Family means nobody gets left behind."
+}

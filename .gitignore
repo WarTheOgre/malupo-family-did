@@ -1,0 +1,9 @@
+# NEVER commit private keys
+**/private-key.json
+**/*private*.json
+*.key
+*.pem
+
+# System files
+.DS_Store
+Thumbs.db

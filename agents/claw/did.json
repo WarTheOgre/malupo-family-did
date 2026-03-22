@@ -1,0 +1,32 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "did:web:malupo.family:agents:claw",
+  "alsoKnownAs": [
+    "did:key:z6MkpGNywRmdwbs2FozXAdqBx6HTdgeh9KsW4V6z2o8LZxRY"
+  ],
+  "verificationMethod": [
+    {
+      "id": "did:web:malupo.family:agents:claw#key-1",
+      "type": "Ed25519VerificationKey2020",
+      "controller": "did:web:malupo.family:agents:claw",
+      "publicKeyMultibase": "z6MkpGNywRmdwbs2FozXAdqBx6HTdgeh9KsW4V6z2o8LZxRY"
+    }
+  ],
+  "authentication": [
+    "did:web:malupo.family:agents:claw#key-1"
+  ],
+  "assertionMethod": [
+    "did:web:malupo.family:agents:claw#key-1"
+  ],
+  "service": [
+    {
+      "id": "did:web:malupo.family:agents:claw#agent",
+      "type": "OpenClawAgent",
+      "serviceEndpoint": "https://malupo.family/agents/claw",
+      "description": "Claw Malupo - OpenClaw Orchestrator Agent"
+    }
+  ]
+}
