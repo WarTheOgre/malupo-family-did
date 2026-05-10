@@ -4,14 +4,29 @@
     "https://w3id.org/security/suites/ed25519-2020/v1"
   ],
   "id": "did:web:malupo.family:agents:ike",
+  "alsoKnownAs": [
+    "did:key:z6MkwQaapGRTUTTFCTHnMk2uE9VFZygoEG3XZKjSSJUApSwC"
+  ],
   "verificationMethod": [
     {
       "id": "did:web:malupo.family:agents:ike#key-1",
       "type": "Ed25519VerificationKey2020",
       "controller": "did:web:malupo.family:agents:ike",
-      "publicKeyMultibase": "zLvgkfbOLjEli5DyWxq8d3w8aAFP7Nr3rlonC9nHUIW4="
+      "publicKeyMultibase": "z6MkwQaapGRTUTTFCTHnMk2uE9VFZygoEG3XZKjSSJUApSwC"
     }
   ],
-  "authentication": ["did:web:malupo.family:agents:ike#key-1"],
-  "assertionMethod": ["did:web:malupo.family:agents:ike#key-1"]
+  "authentication": [
+    "did:web:malupo.family:agents:ike#key-1"
+  ],
+  "assertionMethod": [
+    "did:web:malupo.family:agents:ike#key-1"
+  ],
+  "service": [
+    {
+      "id": "did:web:malupo.family:agents:ike#agent",
+      "type": "IkeAgent",
+      "serviceEndpoint": "https://malupo.family/agents/ike",
+      "description": "Ike Malupo - Family Observer & Bridge Agent"
+    }
+  ]
 }

@@ -40,6 +40,12 @@
       "type": "Agent",
       "did": "did:web:malupo.family:agents:claw",
       "didKey": "did:key:z6MkpGNywRmdwbs2FozXAdqBx6HTdgeh9KsW4V6z2o8LZxRY"
+    },
+    {
+      "name": "Ike Malupo",
+      "type": "Agent",
+      "did": "did:web:malupo.family:agents:ike",
+      "didKey": "did:key:z6MkwQaapGRTUTTFCTHnMk2uE9VFZygoEG3XZKjSSJUApSwC"
     }
   ],
   "note": "Malupo Ohana - Decentralized Family Identity",
